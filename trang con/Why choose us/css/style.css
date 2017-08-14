@@ -1,0 +1,322 @@
+*{margin: 0; padding: 0;}
+.load-trang{
+    animation: load-trang 1.5s;
+    position: relative;
+}
+@keyframes load-trang {
+    0%{
+        top: -500px;
+        opacity: 0;
+    }
+    100%{
+top:0;
+        opacity: 1;
+    }
+}
+.col-sm-6.wow.bounceInLeft {
+    margin-bottom: 20px;
+}
+
+.wapper-instructors {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.text-instructors.text-xs-center {
+    padding: 15px 32px;
+    background: white;
+}
+
+.img-instructors.text-xs-center {
+    background: #2abfd4;
+    padding: 15px;
+    padding-top: 0;
+}
+
+.img-instructors.text-xs-center.mt-1.mb-1 {
+    background: #2abfd4;
+    padding: 15px;
+}
+
+.name-instructors.text-xs-center h6 {
+    font-family: 'Raleway';
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.name-instructors.text-xs-center p {
+    font-size: 15px;
+    line-height: 20px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.name-instructors.text-xs-center {
+    background-color: #2abfd4;
+    padding: 15px;
+}
+.instructors{
+    background: #f6f6f6 !important;
+    
+}
+
+.content-instructors {
+    background: #f6f6f6 !important;
+
+}
+
+h3.title-big-icon {
+    font-weight: 800;
+    color: #666666;
+    font-size: 18px;
+}
+
+figure.big-icon {color: #ffffff;background: #377bab;border-style: solid;border-color: #ffc000;border-width: 8px;width: 180px;height: 180px;line-height: 180px;border-radius: 180px;font-size: 70px;position: relative;display: inline-block;}
+
+figure.big-icon i {padding: 35px;border-radius: 50%;background-color: #ffc000;position: absolute;top: 8%;left: 8%;}
+
+.col-sm-6.text-about-the-school small {
+    font-weight: normal;
+    font-style: normal;
+    color: #666666;
+    font-size: 15px;
+}
+
+.col-sm-6.text-about-the-school p {font-size: 18px;line-height: 28px;font-weight: normal;font-style: normal;color: #666666;}
+
+.col-sm-6.text-about-the-school h6 {
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.content-about-the-school {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.col-sm-3.products-certifications {
+    padding: 7px;
+}
+
+.col-sm-3.products-certifications p {
+    color: white;
+    font-size: 14px;
+}
+
+h3.title-products {
+    font-family: 'Raleway';
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 24px;
+}
+i.fa.fa-check.fa-black{
+    margin-right: 8px;
+    border: 1px #666 solid;
+    border-radius: 50%;
+    padding: 4px;
+}
+i.fa.fa-check {
+    margin-right: 8px;
+    border: 1px white solid;
+    border-radius: 50%;
+    padding: 4px;
+} 
+/*certifications*/
+.certifications{
+        background-color: #2abfd4 !important;
+       
+
+}
+.content-certifications{
+     width: 80%;
+     margin:0 auto;
+}
+h1.title-certifications{
+    margin-top: 55px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    font-size: 26px;
+    margin-bottom: 20px;
+
+}
+.hr-certifications{
+    width:100%;
+    margin: 0 auto;
+    border-bottom: 1px solid white;
+}
+.linear-checkmark-circle:before {
+    content: "\e819";
+}
+/*style cho silder*/
+#wowslider-container1 .ws_pause{
+    display: none!important;
+}
+body {
+    font-family: Raleway;
+    line-height: 22px;
+    font-weight: 400;
+    font-style: normal;
+    color: #666666;
+    font-size: 14px;
+    opacity: 1;
+    visibility: visible;
+    
+}
+/*content-2*/
+.content-2{
+    width: 100%;
+    margin: 60px auto;
+}
+.text-content-2 {
+    color: #666;
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: normal;
+}
+a.signature{
+    margin-top: 30px!important;
+    display: block;
+
+}
+
+}
+h6.title-content-2{
+    font-size: 18px;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 30px;
+    line-height: 27px;
+
+}
+a.signature{
+    margin-top: 30px!important;
+    display: block;
+
+}
+/*hr*/
+.hr-yellow {
+    width: 3%;
+    height: 5px;
+    background-color: #ffc000;
+    margin: 0 auto;
+}
+section.hr {
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+}
+/*title-welcome: ;*/
+.title-welcome h1{
+    font-family: 'Raleway';
+    font-weight: 900;
+    color: #333333;
+    margin-bottom: 20px;
+    font-size: 26px;
+    line-height: 45px;
+    padding-top: 47px;  
+    text-transform: uppercase;
+}
+/*baner-top*/
+.title-wrapper {
+    padding-top: 35px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+}
+
+ol.breadcrumb li a {
+    color: white!important;
+}
+
+ol .breadcrumb-item.active {
+    color: white;
+}
+
+ol .breadcrumb-item:before  {
+    color: white!important;
+}
+
+ol.breadcrumb {
+    font-size: 15px;
+    line-height: 22px;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: white;
+    padding: 0;
+    margin: 0;
+} 
+.title-wrapper h1{
+    font-family: Raleway;
+    
+    text-transform: uppercase;
+    line-height: 40px;
+    font-weight: 800;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 35px;
+}
+section.baner-top {
+    background: url('http://skilled.aislinthemes.com/app/uploads/2016/02/yellow.png');
+}
+@media only screen and (max-width : 768px) {
+   
+} 
+
+@media only screen and (max-width : 480px) {
+    
+    .title-wrapper h1{
+        font-size: 12px;
+    }
+    .lnr-apartment:before{
+        font-style: 18px;
+
+    }
+  
+    h1,h2,h3,h4,h5,h6{
+        font-size: 12px!important;
+    }
+    p{
+        font-size: 10px;
+    }
+    [class=col-sm-4]{
+        margin-top: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

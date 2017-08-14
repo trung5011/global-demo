@@ -1,0 +1,233 @@
+*{margin: 0; padding: 0;}
+.load-trang{
+    animation: load-trang 1.5s;
+    position: relative;
+}
+@keyframes load-trang {
+    0%{
+        top: -500px;
+        opacity: 0;
+    }
+    100%{
+top:0;
+        opacity: 1;
+    }
+}
+a.btn.btn-warning {
+    float: right;
+    border-radius: 0px!important;
+    padding: 12px 22px;
+    transition: ease 1s;
+    background: #f9bf3b;
+    font-size: 13px;
+    font-weight: 700;
+    border: 2px #ffc000 solid;
+}
+
+a.btn.btn-warning:hover {transform: translateY(-8px);}
+
+p.text-describe {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+h3.title-describe {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+section.what-you-see {
+    background: #ececec !important;
+    margin-top: 40px;
+}
+
+.content-what-you-see {
+    background: #ececec !important;
+    padding-top: 55px !important;
+    width: 85%;
+    padding-bottom: 35px !important;
+    margin: 0 auto;
+}
+
+.hr-title {
+    width: 8%;
+    height: 5px;
+    background: #c1c1c1;
+    margin: 0 auto;
+}
+
+p.INSTRUCTOR {
+    font-family: 'Raleway';
+    font-weight: 500;
+    color: #c1c1c1;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+h4.title-content-3 {
+    font-family: 'Raleway';
+    font-weight: 800;
+    color: #333333;
+    margin-bottom: 7px;
+    font-size: 18px;
+}
+
+.img-radius{
+	border-radius: 50%;
+	padding: 5px;
+	margin-bottom: 35px;
+}
+/*content-2*/
+.content-2{
+	width: 85%;
+	margin: 60px auto;
+}
+.text-content-2 {
+	color: #666;
+	line-height: 25px;
+	font-size: 16px;
+	font-weight: normal;
+
+}
+h6.title-content-2{
+	font-size: 18px;
+	font-weight: 700;
+	color: #333333;
+	margin-bottom: 30px;
+	line-height: 27px;
+
+}
+/*hr*/
+.hr-yellow {
+    width: 3%;
+    height: 5px;
+    background-color: #ffc000;
+    margin: 0 auto;
+}
+section.hr {
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+}
+
+
+body {
+    font-family: Raleway;
+    line-height: 22px;
+    font-weight: 400;
+    font-style: normal;
+    color: #666666;
+    font-size: 14px;
+    opacity: 1;
+    visibility: visible;
+    
+}
+/*title-slogan*/
+.slogan-center{
+	padding-bottom: 50px;
+}
+h2.title-slogan-center{
+font-size: 26px;
+line-height: 37px;
+ color: #666666;
+}
+/*cotent-1*/
+.content-1{
+	margin-top: 50px;
+	padding-bottom: 50px;
+}
+.distance{
+	padding:0!important;
+	 margin: 0!important;
+	
+}
+a.signature{
+	margin-top: 30px!important;
+	display: block;
+
+}
+
+
+
+/*baner-top*/
+.title-wrapper {
+    padding-top: 35px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+}
+
+ol.breadcrumb li a {
+    color: white!important;
+}
+
+ol .breadcrumb-item.active {
+    color: white;
+}
+
+ol .breadcrumb-item:before  {
+    color: white!important;
+}
+
+ol.breadcrumb {
+    font-size: 15px;
+    line-height: 22px;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: white;
+    padding: 0;
+    margin: 0;
+} 
+.title-wrapper h1{
+	font-family: Raleway;
+    
+    text-transform: uppercase;
+    line-height: 40px;
+    font-weight: 800;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 35px;
+}
+section.baner-top {
+    background: url('http://skilled.aislinthemes.com/app/uploads/2016/02/yellow.png');
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 768px) {
+    
+} 
+
+@media only screen and (max-width : 480px) {
+    *{
+
+    }
+    .title-wrapper h1{
+        font-size: 12px;
+    }
+    .title-wrapper ol{
+        font-size: 10px
+    }
+    .lnr-apartment:before{
+        font-style: 18px;
+
+    }
+    
+    h1,h2,h3,h4,h5,h6{
+        font-size: 12px!important;
+    }
+    p{
+        font-size: 10px;
+    }
+    [class=col-sm-4]{
+        margin-top: 10px;
+    }
+}

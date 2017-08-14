@@ -1,0 +1,147 @@
+*{margin: 0; padding: 0;}
+h5.name-introduce {
+    color: #727272;
+    font-weight: 700;
+}
+.load-trang{
+    animation: load-trang 1.5s;
+    position: relative;
+}
+@keyframes load-trang {
+    0%{
+        top: -500px;
+        opacity: 0;
+    }
+    100%{
+top:0;
+        opacity: 1;
+    }
+}
+.introduce-icon {
+    font-size: 20px;
+    line-height: 38px;
+    color: white;
+}
+
+.introduce-icon i {
+    background: #fec100;
+    margin: 0 3px 0 0;
+    width: 38px;
+    text-align: center;
+    line-height: 22px;
+    padding:  7px;
+}
+
+.introduce-teachers h6.job {
+    color: #fec100;
+}
+body {
+    font-family: Raleway;
+    line-height: 22px;
+    font-weight: 400;
+    font-style: normal;
+    color: #666666;
+    font-size: 14px;
+    opacity: 1;
+    visibility: visible;
+    
+}
+.thu-ngay-thang{
+    list-style-type: none;
+    margin:0;
+    box-sizing: border-box;
+}
+.lich .gio {
+    float: right;
+    font-size: 13px;
+    color: #333;
+    font-weight: normal;
+    text-align: right;
+
+}
+.lich .gio-closed {
+    float: right;
+    font-size: 13px;
+    color: white;
+    font-weight: normal;
+    text-align: right;
+    background: #10AAC2;
+    padding:0px 7px;
+
+}
+.lich .thu{
+    
+    font-size: 13px;
+    color: #333;
+    font-weight: normal;
+    text-align: left;
+}
+.lich:first-child{
+    border-top: none;
+}
+.lich{
+    border-top: 1px solid #d9d9d9;
+    padding: 5px 0;
+        display: list-item;
+        box-sizing: border-box;
+
+}
+.hr-small {
+    width: 35px;
+    background: #ffc000;
+    height: 5px;}
+/*baner-top*/
+.title-wrapper {
+    padding-top: 35px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+}
+section.working-hours h5 {
+    font-weight: 500;
+    color: #333333;
+    line-height: 32px;
+    font-size: 20px;
+}
+
+ol.breadcrumb li a {
+    color: white!important;
+}
+
+ol .breadcrumb-item.active {
+    color: white;
+}
+
+ol .breadcrumb-item:before  {
+    color: white!important;
+}
+
+ol.breadcrumb {
+    font-size: 15px;
+    line-height: 22px;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: white;
+    padding: 0;
+    margin: 0;
+} 
+.title-wrapper h1{
+    font-family: Raleway;
+    
+    text-transform: uppercase;
+    line-height: 40px;
+    font-weight: 800;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 35px;
+}
+section.baner-top {
+    background: url('http://skilled.aislinthemes.com/app/uploads/2016/02/yellow.png');
+}
+@media only screen and (max-width : 1200px) {}
+@media only screen and (max-width : 992px) {}
+@media only screen and (max-width : 768px) {} 
+@media only screen and (max-width : 480px) {
+	
+}

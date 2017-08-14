@@ -1,0 +1,321 @@
+*{margin: 0; padding: 0;}
+.load-trang{
+    animation: load-trang 1.5s;
+    position: relative;
+}
+@keyframes load-trang {
+    0%{
+        top: -500px;
+        opacity: 0;
+    }
+    100%{
+top:0;
+        opacity: 1;
+    }
+}
+.content-what-you-get span {
+    display: block;
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    font-family: 'Raleway';
+    padding: 20px 0px 20px 35px;
+    border-bottom: 1px solid #f5f5f5;
+    position: relative;
+}
+
+.content-what-you-get span:before {
+    font-family: Linearicons-Free;
+    margin-right: 15px;
+    color: #999;
+    font-size: 25px;
+    margin: 0px 15px 0px 0;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 13px;
+}
+
+.button-2 a {
+    text-align: center;
+    padding: 15px;
+    width: 75%;
+    display: block;
+    background: #10AAC2;
+    color: white;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.button-1 span {
+    padding: 10px 50px 10px 10px;
+    background: #f5f5f5;
+    display: block;
+    font-size: 16px;
+    width: 75%;
+}
+
+.button-1 span:before {
+    margin-right: 16px;
+}
+
+section.bai-viet-lien-quan:before {
+    content: "";
+    height: 1px;
+    background: #999;
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.starting-bai-viet span {
+    color: #fec100;
+}
+
+.desc-item-bai-viet h6 {
+    font-size: 12px;
+    color: #000;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.form-group label{
+padding-top: 10px;
+}
+.introduce-icon {
+    font-size: 20px;
+    line-height: 38px;
+    color: white;
+}
+
+.introduce-icon i {
+    background: #fec100;
+    margin: 0 3px 0 0;
+    width: 38px;
+    text-align: center;
+    line-height: 22px;
+    padding:  7px;
+}
+
+section.introduce-teachers.mt-3 .job {
+    color: #fec100;
+}
+.thu-ngay-thang{
+    list-style-type: none;
+    margin:0;
+    box-sizing: border-box;
+}
+.lich .gio {
+    float: right;
+    font-size: 13px;
+    color: #333;
+    font-weight: normal;
+    text-align: right;
+
+}
+.lich .gio-closed {
+    float: right;
+    font-size: 13px;
+    color: white;
+    font-weight: normal;
+    text-align: right;
+    background: #10AAC2;
+    padding:0px 7px;
+
+}
+.lich .thu{
+    
+    font-size: 13px;
+    color: #333;
+    font-weight: normal;
+    text-align: left;
+}
+.lich:first-child{
+    border-top: none;
+}
+.lich{
+    border-top: 1px solid #d9d9d9;
+    padding: 5px 0;
+        
+        display: list-item;
+        box-sizing: border-box;
+
+}
+
+.hr-small {
+    width: 35px;
+    background: #ffc000;
+    height: 5px;
+}
+
+section.what-you-get h5 {
+    font-weight: 500;
+    color: #333333;
+    line-height: 32px;
+    font-size: 20px;
+}
+section.working-hours h5 {
+    font-weight: 500;
+    color: #333333;
+    line-height: 32px;
+    font-size: 20px;
+}
+
+
+button.btn.btn-primary {
+    background: #2abfd4;
+    border: 1px solid #2abfd4;
+    padding: 16px 27px 14px 27px;
+    border-radius: 0px;
+    text-transform: uppercase;
+}
+
+button.btn.btn-primary:hover {
+    background-color: #20d1e9;
+    border: 1px solid #20d1e9;
+    color: #fff;
+}
+
+textarea#exampleTextarea {
+    background: #f2f2f2;
+    border: 0px solid #d0cece;
+    width: 60%;
+}
+
+input#exampleInputEmail1 {
+    background: #f2f2f2;
+    border: 0px solid #d0cece;
+    width: 60%;
+} 
+body {
+    font-family: Raleway;
+    line-height: 22px;
+    font-weight: 400;
+    font-style: normal;
+    color: #666666;
+    font-size: 14px;
+    opacity: 1;
+    visibility: visible;
+    
+}
+
+h5.name-introduce {
+    color: #727272;
+    font-weight: 700;
+}
+/*baner-top*/
+.title-wrapper {
+    padding-top: 35px;
+    padding-right: 20px;
+    padding-bottom:30px;
+    padding-left: 20px;
+}
+
+ol.breadcrumb li a {
+    color: white!important;
+}
+
+ol .breadcrumb-item.active {
+    color: white;
+}
+
+ol .breadcrumb-item:before  {
+    color: white!important;
+}
+
+ol.breadcrumb {
+    font-size: 15px;
+    line-height: 22px;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: white;
+    padding: 0;
+    margin: 0;
+} 
+.title-wrapper h1{
+    font-family: Raleway;
+    
+    text-transform: uppercase;
+    line-height: 40px;
+    font-weight: 800;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 35px;
+}
+section.baner-top {
+    background: url('http://skilled.aislinthemes.com/app/uploads/2016/02/yellow.png');
+}
+/*warpper-where-do-you-want-to-be*/
+.warpper-where-do-you-want-to-be{
+    margin: 0 auto;
+}
+    /*ngay-thang*/
+    .ngay-thang ul li {
+    float: left;
+    list-style: none;
+    }
+    .ngay-thang ul li a {
+    color: #ecb202;
+    font-size: 15px;
+    padding: 5px;
+    }
+    /*quote-where-do-you-want-to-be.mt-2.mb-2*/
+    .quote-where-do-you-want-to-be.mt-2.mb-2 {
+    border-left: 5px solid #ecb202;
+    padding-left: 20px;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+}
+/*all-icon*/
+.all-icon ul li {
+    float: left;
+    font-size: 20px;
+    padding: 5px;
+    color: #ecb202;
+    list-style: none;
+}
+.clear{
+    clear:both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 768px) {
+    
+} 
+
+@media only screen and (max-width : 480px) {
+    *{
+
+    }
+    .title-wrapper h1{
+        font-size: 12px;
+    }
+    .title-wrapper ol{
+        font-size: 10px;
+    }
+    .lnr-apartment:before{
+        font-style: 18px;
+
+    }
+  
+    h1,h2,h3,h4,h5,h6{
+        font-size: 12px!important;
+    }
+    p{
+        font-size: 10px;
+    }
+    [class=col-sm-4]{
+        margin-top: 10px;
+    }
+}

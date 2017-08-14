@@ -1,0 +1,161 @@
+*{margin: 0; padding: 0;}
+.bg-xam{
+    background: #c1c1c1;
+    transition: ease 0.5s;
+}
+.bang-thong-tin-khach{
+	position: relative;
+}
+.active{
+	opacity: 1!important;
+	visibility: visible!important;
+
+}
+.my-courses{
+  transition: ease 0.5s;
+}
+.account-details{
+    transition: ease 0.5s;
+}
+.courses h6{
+
+}
+.courses-1{
+	border: none!important;
+}
+.clear{
+	clear: both;
+}
+.courses ul li p{
+	text-align: left;
+	line-height: 24px;
+    margin-top: 10px;
+}
+.courses ul li {
+    float: left;
+    padding: 2% 0%;
+    width: 25%;
+}
+.courses ul{
+	 border-bottom: 1px solid #999;
+}
+.courses ul:nth-child(1){
+	border: none;
+}
+.courses{
+    padding: 35px;
+    text-align: center;
+    position: absolute;
+    top:0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: ease 0.5s;
+}
+ul.card-thong-tin li {
+    padding: 15px 10px;
+    color: #616060;
+    font-weight: 500;
+    cursor: pointer;
+}
+ul.card-thong-tin li:hover{
+	background: #c1c1c1;
+}
+ul.card-thong-tin{
+	margin-left:15px; 
+}
+.thong-tin-khach h5.title-thong-tin{
+	text-transform: uppercase;
+	color: #616060;
+	padding:15px 0;
+}
+.thong-tin-khach h5.title-thong-tin:after{
+	content: '';
+    height: 1px;
+    width: 80%;
+    background: #616060;
+    display: block;
+    margin-top: 15px;
+}
+.account {
+    border: 1px solid #ccc;
+    padding: 35px;
+    text-align: center;
+     opacity: 0;
+    visibility: hidden;
+    transition: ease 0.5s;
+}
+.bang-thong-tin-khach h6 {
+    color: #616060;
+    margin-bottom: 30px;
+}
+.bang-thong-tin-khach input{
+	height: 40px;
+    width: 80%;
+     color: #616060;
+border: 1px solid #7c7c7c;
+}
+.bang-thong-tin-khach input.first-name{
+	width: 30%;
+    margin-right: 5%;
+}
+.bang-thong-tin-khach form ul {
+	text-align: left;
+}
+.bang-thong-tin-khach form ul li{
+	margin-top: 10px;
+}
+.bang-thong-tin-khach span{
+ width: 15%;
+ display: inline-block;
+}
+.thong-tin-khach a{
+	padding: 15px 20px;
+	color: white;
+	background: #57bfd7;
+	display: inline-block;
+	margin-top: 6%;
+
+}
+.thong-tin-khach{
+	margin-top: 30px;
+}
+@font-face {
+     font-family: "Helvetica-Regular";
+     src: url("../fonts/Helvetica-Regular.otf");
+    
+}
+@media only screen and (max-width : 1200px) {
+     p,li,h6{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width : 992px) {}
+@media only screen and (max-width : 768px) {
+
+} 
+@media only screen and (max-width : 480px) {
+	.bang-thong-tin-khach span {
+    width: 15%;
+    display: inline-block;
+    margin-right: 6%;
+    font-size: 11px;
+}
+.bang-thong-tin-khach input.first-name {
+    width: 25%;
+    margin-right: 4%;
+}
+.bang-thong-tin-khach input {
+    height: 40px;
+    width: 75%;
+    color: #616060;
+    border: 1px solid #7c7c7c;
+}
+.courses ul li p{
+    line-height: 16px;
+        font-size: 11px;
+}
+.courses ul li{
+    font-size: 11px;
+}
+}

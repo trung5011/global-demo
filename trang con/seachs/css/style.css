@@ -1,0 +1,156 @@
+*{margin: 0; padding: 0;}
+.load-trang{
+    animation: load-trang 1.5s;
+    position: relative;
+}
+@keyframes load-trang {
+    0%{
+        top: -500px;
+        opacity: 0;
+    }
+    100%{
+top:0;
+        opacity: 1;
+    }
+}
+a.btn.btn-primary.button-seach {
+    width: 100px;
+    background-color: #2abfd4;
+    border-radius: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 10px;
+    border: 1px solid #2abfd4;
+    color: #fff;
+    padding: 16px 27px 14px 27px;
+    margin-left: 2px;
+    margin-top: -4px;
+    text-transform: uppercase;
+}
+
+a.btn.btn-primary.button-seach:hover {
+    background-color: #20d1e9;
+    border: 1px solid #20d1e9;
+    color: #fff;
+}
+body {
+    font-family: Raleway;
+    line-height: 22px;
+    font-weight: 400;
+    font-style: normal;
+    color: #666666;
+    font-size: 14px;
+    opacity: 1;
+    visibility: visible;
+    
+}
+
+input.seach-content {
+    background: #f2f2f2;
+    width: 80%;
+    height: 40px;
+    padding: 5px 15px;
+    border-radius: 2px;
+    border: none;
+    color: #000;
+}
+
+.container-fluid.seach-wapper p {
+    color: #999;
+    font-weight: 400;
+}
+
+.container-fluid.seach-wapper h1 {
+    color: #333;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.container-fluid.seach-wapper {
+    width: 85%;
+} 
+/*baner-top*/
+.title-wrapper {
+    padding-top: 35px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+
+ol.breadcrumb li a {
+    color: white!important;
+}
+
+ol .breadcrumb-item.active {
+    color: white;
+}
+
+ol .breadcrumb-item:before  {
+    color: white!important;
+}
+
+ol.breadcrumb {
+    font-size: 15px;
+    line-height: 22px;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: white;
+    padding: 0;
+    margin: 0;
+} 
+.title-wrapper h1{
+	font-family: Raleway;
+    
+    text-transform: uppercase;
+    line-height: 40px;
+    font-weight: 800;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 35px;
+}
+section.baner-top {
+    background:url('http://skilled.aislinthemes.com/app/uploads/2016/02/yellow.png');
+}	
+
+
+
+
+
+
+@media only screen and (max-width : 768px) {
+    figure.item-smater i{
+        left: 40%;
+    }
+} 
+
+@media only screen and (max-width : 480px) {
+    *{
+
+    }
+    .title-wrapper h1{
+        font-size: 12px;
+    }
+    .title-wrapper ol{
+        font-size: 10px;
+    }
+    .lnr-apartment:before{
+        font-style: 18px;
+
+    }
+    figure.item-smater i{
+        left: 30%;
+    }
+    h1,h2,h3,h4,h5,h6{
+        font-size: 12px!important;
+    }
+    p{
+        font-size: 10px;
+    }
+    [class=col-sm-4]{
+        margin-top: 10px;
+    }
+    a.btn.btn-primary.button-seach{
+        margin-top: 10px;
+    }
+}
